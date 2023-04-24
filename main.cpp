@@ -1,9 +1,8 @@
 #include<iostream>
 #include<fstream>
-#include<stdlib.h>
-#include<string.h>
-#include<ctype.h>
-
+#include<cstdlib>
+#include<cstring>
+#include<cctype>
 
 using namespace std;
 
@@ -27,7 +26,7 @@ int main(){
 
 
     char ch, buffer[15], operators[] = "+-%=";
-    ifstream fin("program.txt");
+    ifstream fin("/home/xamblot/CLionProjects/LexicalAnalyzer/program.txt");
     int i,j=0;
     if(!fin.is_open()){
         cout<<"error while opening the file\n";
