@@ -1,0 +1,10 @@
+void program()
+{
+
+    const double a = 10.5f;
+    const double b = 10.5f;
+    double c;
+
+    c = a + b;
+    return 0;
+}
